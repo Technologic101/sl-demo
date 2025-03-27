@@ -1,8 +1,11 @@
 import streamlit as st
 
 def main():
-    st.title("Hello from Streamlit!")
-    st.write("Welcome to my Streamlit app!")
+    st.header("st.button")
+    if st.button("Click me!"):
+        st.write("Why hello there")
+    else:
+        st.write("Goodbye")
 
 
 if __name__ == "__main__":
