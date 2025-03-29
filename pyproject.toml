@@ -5,3 +5,6 @@ description = "Learning the basics of Streamlit"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = ["streamlit (>=1.44.0,<2.0.0)", "watchdog (>=6.0.0,<7.0.0)"]
+
+[tool.poetry]
+package-mode = false
